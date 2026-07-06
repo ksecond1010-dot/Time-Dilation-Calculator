@@ -18,3 +18,5 @@ print(f"")
 print(f"Kalau lu jalan {v} km/s selama 1 tahun di pesawat")
 print(f"Di bumi udah lewat: {t:.2f} tahun")
 print(f"Jadi lu lebih muda {t-1:.2f} tahun dari temen lu di bumi!")
+
+dengan catatan maximal kecepatan cahaya adalah 300.000 km/s jika lebih maka kode akan eror
