@@ -1,0 +1,28 @@
+# Time Dilation Calculator ⏰🚀
+
+Kalkulator sederhana buat ngitung efek Dilatasi Waktu dari Teori Relativitas Khusus Einstein.
+
+## Apa itu Dilatasi Waktu?
+Makin cepat kita bergerak, waktu jadi makin lambat. 
+Contoh: Astronot yang naik pesawat super cepat akan "lebih muda" dari temennya di bumi.
+
+Rumus: `t = t0 / sqrt(1 - v^2/c^2)`
+- t = waktu yang dirasakan di bumi
+- t0 = waktu di pesawat 
+- v = kecepatan pesawat
+- c = kecepatan cahaya 300.000 km/s
+
+## Cara Pakai
+1.  Run file `dilatasi_waktu.py`
+2.  Masukin kecepatan pesawat dalam km/s
+3.  Liat hasilnya! Berapa tahun yang lewat di bumi
+
+## Contoh
+Kecepatan: 270.000 km/s selama 1 tahun di pesawat
+Hasil: Di bumi udah lewat 2.29 tahun
+
+Jadi lu lebih muda 1.29 tahun dari temen lu 😱
+
+## Dibuat oleh
+Umur 12 tahun | April 2026
+Belajar Fisika + Python bareng-bareng
