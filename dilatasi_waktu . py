@@ -1,0 +1,20 @@
+import math
+
+print("=== KALKULATOR DILATASI WAKTU EINSTEIN ===")
+print("Rumus: t = t0 / sqrt(1 - v^2/c^2)")
+print("")
+
+# Kecepatan cahaya = 300,000 km/s
+c = 300000 
+
+# Lu input kecepatan pesawatnya
+v = float(input("Masukin kecepatan pesawat km/s: "))
+
+# Rumus dilatasi waktu
+t0 = 1 # 1 tahun di bumi
+t = t0 / math.sqrt(1 - (v**2 / c**2))
+
+print(f"")
+print(f"Kalau lu jalan {v} km/s selama 1 tahun di pesawat")
+print(f"Di bumi udah lewat: {t:.2f} tahun")
+print(f"Jadi lu lebih muda {t-1:.2f} tahun dari temen lu di bumi!")
