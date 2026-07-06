@@ -4,8 +4,7 @@ Kalkulator sederhana buat ngitung efek Dilatasi Waktu dari Teori Relativitas Khu
 
 ## Apa itu Dilatasi Waktu?
 Makin cepat kita bergerak, waktu jadi makin lambat. 
-Contoh: Astronot yang naik pesawat super cepat akan "lebih muda" dari temennya di bumi.
-
+Contoh: Dalam film The flash, setiap flashnya berlari dengan cepat disekitarnya melambat kan, nah itu dia konsep dari dilatasi waktu
 Rumus: `t = t0 / sqrt(1 - v^2/c^2)`
 - t = waktu yang dirasakan di bumi
 - t0 = waktu di pesawat 
