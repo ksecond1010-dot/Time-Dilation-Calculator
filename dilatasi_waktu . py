@@ -1,22 +1,24 @@
 import math
 
-print("=== KALKULATOR DILATASI WAKTU EINSTEIN ===")
-print("Rumus: t = t0 / sqrt(1 - v^2/c^2)")
+print("=== EINSTEIN TIME DILATION CALCULATOR ===")
+print("Formula: t = t0 / sqrt(1 - v^2/c^2)")
 print("")
 
-# Kecepatan cahaya = 300,000 km/s
+# Speed of light = 300,000 km/s
 c = 300000 
 
-# Lu input kecepatan pesawatnya
-v = float(input("Masukin kecepatan pesawat km/s: "))
+# You input the spaceship speed
+v = float(input("Enter spaceship speed in km/s: "))
 
-# Rumus dilatasi waktu
-t0 = 1 # 1 tahun di bumi
-t = t0 / math.sqrt(1 - (v**2 / c**2))
+# Safety check: speed can't be >= speed of light
+if v >= c:
+    print("Error: Speed cannot be equal to or greater than the speed of light (300,000 km/s)")
+else:
+    # Time dilation formula
+    t0 = 1 # 1 year on Earth
+    t = t0 / math.sqrt(1 - (v**2 / c**2))
 
-print(f"")
-print(f"Kalau lu jalan {v} km/s selama 1 tahun di pesawat")
-print(f"Di bumi udah lewat: {t:.2f} tahun")
-print(f"Jadi lu lebih muda {t-1:.2f} tahun dari temen lu di bumi!")
-
-dengan catatan maximal kecepatan cahaya adalah 300.000 km/s jika lebih maka kode akan eror
+    print(f"")
+    print(f"If you travel at {v} km/s for 1 year on the spaceship")
+    print(f"{t:.2f} years will pass on Earth")
+    print(f"So you will be {t-1:.2f} years younger than your friends on Earth!")
