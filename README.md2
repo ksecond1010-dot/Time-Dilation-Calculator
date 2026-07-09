@@ -1,28 +1,27 @@
-# Time Dilation Calculator ⏰🚀
+ Time Dilation Calculator ⏰🚀
 
-Kalkulator sederhana buat ngitung efek Dilatasi Waktu dari Teori Relativitas Khusus Einstein.
+A simple calculator to experience Einstein's Special Relativity. 
+What if you could travel at near light speed?
 
-## Apa itu Dilatasi Waktu?
-Makin cepat kita bergerak, waktu jadi makin lambat. 
-Contoh: Dalam film The flash, setiap flashnya berlari dengan cepat disekitarnya melambat kan, nah itu dia konsep dari dilatasi waktu
-Rumus: `t = t0 / sqrt(1 - v^2/c^2)`
-- t = waktu yang dirasakan di bumi
-- t0 = waktu di pesawat 
-- v = kecepatan pesawat
-- c = kecepatan cahaya 300.000 km/s
+ What is Time Dilation?
+Einstein said: The faster you move, the slower time moves for you.
+It's not sci-fi. GPS satellites have to correct for this every day!
 
-## Cara Pakai
-1.  Run file `dilatasi_waktu.py`
-2.  Masukin kecepatan pesawat dalam km/s
-3.  Liat hasilnya! Berapa tahun yang lewat di bumi
+**Mind-blowing Example:** 
+If you travel at 90% the speed of light for 1 year on your spaceship...
+When you get back to Earth, 2.29 years will have passed. 
+Your best friend aged 2 years, but you only aged 1 year 😱
 
-## Contoh
-Kecepatan: 270.000 km/s selama 1 tahun di pesawat
-Hasil: Di bumi udah lewat 2.29 tahun
+Formula: `t = t0 / sqrt(1 - v^2/c^2)`
+- `t` = time that passes on Earth
+- `t0` = time that passes for you on the spaceship  
+- `v` = your spaceship speed
+- `c` = speed of light = 300,000 km/s
 
-Jadi lu lebih muda 1.29 tahun dari temen lu 😱
+ How to Use
+1.  Run the file: `python time_dilation.py`
+2.  Enter any speed in km/s
+3.  Watch how much time you "save" compared to Earth!
 
-## Dibuat oleh
-Umur 13 tahun | Juli 2026
-Belajar Fisika + Python bareng-bareng
-otw masuk mit
+ Try These Speeds
+| Speed | 1
